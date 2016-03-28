@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  SimpleTwitterClient
 //
 //  Created by Andrey Bondarenko on 11.03.16.
@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class STCTwitterService;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface STCLoginViewController : UIViewController
 
+@property (strong, nonatomic) STCTwitterService *twitterServiceInstance;
 
 @end
 

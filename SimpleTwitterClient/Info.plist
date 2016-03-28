@@ -20,8 +20,42 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>689b2b1e205f6577627fd4074269cad770e431f9</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>Y3ZWL4mGI8aH2Cg5k4EAajUof</string>
+					<key>consumerSecret</key>
+					<string>jjT0Z3xASDInCNLYvxWKEntqL3e7pAnvdfE7G5w1r68O96H4lD</string>
+				</dict>
+				<key>KitName</key>
+				<string>Twitter</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>TyphoonGlobalConfigFilenames</key>
+	<array>
+		<string>Configuration.plist</string>
+	</array>
+	<key>TyphoonInitialAssemblies</key>
+	<array>
+		<string>STCUIAssembly</string>
+		<string>STCTwitterAssembly</string>
+		<string>STCCoreDataAssembly</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -33,8 +67,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

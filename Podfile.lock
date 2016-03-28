@@ -1,0 +1,37 @@
+PODS:
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - JSONKit-NoWarning (1.2)
+  - JSONModel (1.2.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - TwitterCore (2.0.1):
+    - Fabric
+  - TwitterKit (2.0.1):
+    - TwitterCore (= 2.0.1)
+  - Typhoon (3.4.5):
+    - Typhoon/no-arc (= 3.4.5)
+  - Typhoon/no-arc (3.4.5)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - JSONKit-NoWarning (~> 1.2)
+  - JSONModel (~> 1.2)
+  - SDWebImage (~> 3.7)
+  - TwitterKit
+  - Typhoon
+
+SPEC CHECKSUMS:
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  TwitterCore: f8575c28412ab2e3fed1a153764397771de06efb
+  TwitterKit: ebc84244d4ada8cc673afd4ae7b67277e1f05a65
+  Typhoon: 200100687af3233ec5ed019064df3c9ffe350475
+
+COCOAPODS: 0.39.0

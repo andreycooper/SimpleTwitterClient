@@ -6,17 +6,18 @@
 //  Copyright © 2016 Rus Wizards Group. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "STCAppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <TwitterKit/TwitterKit.h>
 
-@interface AppDelegate ()
+@interface STCAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation STCAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     return YES;
 }
 
@@ -40,6 +41,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)initFabricWithKitList:(NSArray *)kits {
+    [Fabric with:kits];
 }
 
 @end
